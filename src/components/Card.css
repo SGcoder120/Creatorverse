@@ -50,6 +50,42 @@
   font-size: 0.95rem;
 }
 
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.card-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.card-btn-view {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.card-btn-view:hover {
+  background-color: #1557b0;
+}
+
+.card-btn-edit {
+  background-color: #34a853;
+  color: white;
+}
+
+.card-btn-edit:hover {
+  background-color: #2d7d4a;
+}
+
 @media (max-width: 480px) {
   .card {
     flex-direction: column;

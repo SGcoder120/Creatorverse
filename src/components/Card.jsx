@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import "./Card.css";
 
-export default function Card({name, url, description, imageURL}) {
+export default function Card({id, name, url, description, imageURL}) {
     return (
         <div className="card">
             {imageURL && (
@@ -12,6 +13,10 @@ export default function Card({name, url, description, imageURL}) {
                     <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
                 </p>
                 <p className="card-description">{description}</p>
+                <div className="card-actions">
+                    <Link to={`/view/${id}`} className="card-btn card-btn-view">View</Link>
+                    <Link to={`/edit/${id}`} className="card-btn card-btn-edit">Edit</Link>
+                </div>
             </div>
         </div>
     );

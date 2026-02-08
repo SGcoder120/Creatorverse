@@ -41,6 +41,7 @@ export default function ShowCreators({ creators: initialCreators }) {
 			{creators.map((c) => (
 				<Card
 					key={c.id}
+					id={c.id}
 					name={c.name}
 					url={c.url}
 					description={c.description}
