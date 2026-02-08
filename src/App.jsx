@@ -40,20 +40,26 @@ function App() {
   const element = useRoutes(routes)
 
   return (
-    <div className="app-root">
+    <>
       <header className="app-header">
-        <h1>Creatorverse</h1>
-        <nav>
-          <Link to="/">Home</Link>
-          {' | '}
-          <Link to="/add">Add Creator</Link>
-        </nav>
+        <div className="navbar-container">
+          <div className="navbar-brand">
+            <Link to="/" className="nav-link">
+              <h1>Creatorverse</h1>
+            </Link>
+          </div>
+          <nav className="navbar-nav">
+            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/add" className="nav-link nav-link-primary">Add Creator</Link>
+          </nav>
+        </div>
       </header>
-
-      <main>
-        {element}
-      </main>
-    </div>
+      <div className="app-root">
+        <main>
+          {element}
+        </main>
+      </div>
+    </>
   )
 }
 

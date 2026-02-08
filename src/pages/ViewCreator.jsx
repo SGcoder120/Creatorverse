@@ -96,10 +96,6 @@ export default function ViewCreator() {
 						<p className="creator-description">{creator.description}</p>
 					</div>
 
-					<div className="info-group">
-						<h3>ID</h3>
-						<p className="creator-id">{creator.id}</p>
-					</div>
 				</div>
 			</div>
 		</div>
