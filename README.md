@@ -27,11 +27,10 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of the implemented features:
+https://www.youtube.com/watch?v=c6UgVSZNpYM
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with ...  ScreenToGif
+Video made by a screen recorder and published on Youtube.
 
 ## Notes
 
