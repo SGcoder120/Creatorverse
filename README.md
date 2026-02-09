@@ -31,16 +31,11 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ...  ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+While building the app, the hardest part was making sure everything was styled correctly and completing the database actions so that I can exercise the CRUD operations (create, read, update, delete). Once those were set, the rest was easy to implement.
 
 ## License
 
