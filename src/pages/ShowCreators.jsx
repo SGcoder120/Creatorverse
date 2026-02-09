@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import supabase from '../client.js'
 import Card from '../components/Card.jsx'
+import './ShowCreators.css'
 
 export default function ShowCreators({ creators: initialCreators }) {
 	const [creators, setCreators] = useState(initialCreators || [])
@@ -37,7 +38,7 @@ export default function ShowCreators({ creators: initialCreators }) {
 	}
 
 	return (
-		<div>
+		<div className="creators-grid">
 			{creators.map((c) => (
 				<Card
 					key={c.id}

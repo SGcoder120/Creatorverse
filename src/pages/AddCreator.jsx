@@ -70,7 +70,6 @@ export default function AddCreator() {
 						name="url"
 						value={formData.url}
 						onChange={handleChange}
-						required
 					/>
 				</div>
 
@@ -81,7 +80,6 @@ export default function AddCreator() {
 						name="description"
 						value={formData.description}
 						onChange={handleChange}
-						required
 						rows="4"
 					/>
 				</div>
@@ -94,7 +92,6 @@ export default function AddCreator() {
 						name="imageURL"
 						value={formData.imageURL}
 						onChange={handleChange}
-						required
 					/>
 				</div>
 

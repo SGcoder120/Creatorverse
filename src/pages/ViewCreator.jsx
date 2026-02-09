@@ -95,7 +95,6 @@ export default function ViewCreator() {
 						<h3>Description</h3>
 						<p className="creator-description">{creator.description}</p>
 					</div>
-
 				</div>
 			</div>
 		</div>

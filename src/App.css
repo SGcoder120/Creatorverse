@@ -74,7 +74,7 @@
   align-items: center;
 }
 
-.navbar-brand h1 {
+.brand-title {
   margin: 0;
   font-size: 1.5rem;
   color: white;
@@ -97,39 +97,36 @@
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 4px;
-  transition: all 0.3s ease;
   position: relative;
 }
 
-.nav-link:hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.nav-link::after {
+.nav-link-home::after {
   content: '';
   position: absolute;
-  bottom: 0;
   left: 1rem;
-  width: calc(100% - 2rem);
+  right: 1rem;
+  bottom: 0.25rem;
   height: 2px;
-  background: white;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease;
+  background-color: white;
 }
 
-.nav-link:hover::after {
+.nav-link-home:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.nav-link-home:hover::after {
   transform: scaleX(1);
-  transform-origin: left;
 }
 
 .nav-link-primary {
+  color: rgba(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .nav-link-primary:hover {
+  color: rgba(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
 }

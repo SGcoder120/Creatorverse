@@ -40,16 +40,15 @@ function App() {
   const element = useRoutes(routes)
 
   return (
-    <>
+    <div>
       <header className="app-header">
         <div className="navbar-container">
           <div className="navbar-brand">
-            <Link to="/" className="nav-link">
-              <h1>Creatorverse</h1>
+            <Link to="/" className="nav-link nav-link-home">
+              <h1 className="brand-title">Creatorverse</h1>
             </Link>
           </div>
           <nav className="navbar-nav">
-            <Link to="/" className="nav-link">Home</Link>
             <Link to="/add" className="nav-link nav-link-primary">Add Creator</Link>
           </nav>
         </div>
@@ -59,7 +58,7 @@ function App() {
           {element}
         </main>
       </div>
-    </>
+    </div>
   )
 }
 
